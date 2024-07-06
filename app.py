@@ -9,4 +9,4 @@ def home():
 def about():
     return render_template('about.html', path='About')
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=4000)
